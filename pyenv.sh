@@ -100,3 +100,6 @@ if ! command -v pyenv 1>/dev/null; then
     esac
   } >&2
 fi
+cp ~/.bashrc ~/.barch_bk_for_pyenv
+echo "PATH=\"${PYENV_ROOT}/bin:\$PATH\"" >> ~/.bashrc
+source ~/.bahrc
