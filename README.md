@@ -1,4 +1,4 @@
-# pyenv-install
+# pyenv-installer
 curl file offline version
 
 ## install 
