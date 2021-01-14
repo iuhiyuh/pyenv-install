@@ -102,4 +102,6 @@ if ! command -v pyenv 1>/dev/null; then
 fi
 cp ~/.bashrc ~/.barch_bk_for_pyenv
 echo "PATH=\"${PYENV_ROOT}/bin:\$PATH\"" >> ~/.bashrc
+echo "eval \"\$(pyenv init -)\"" >> ~/.bashrc
+echo "eval \"\$(pyenv virtualenv-init -)\"" >> ~/.bashrc
 source ~/.bahrc
